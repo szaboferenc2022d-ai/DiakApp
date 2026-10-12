@@ -32,4 +32,4 @@ Console.WriteLine($"Hibás soros számok: {hibasSorokSzama}");
 foreach(Diak kiir in diakok)
 {
     Console.WriteLine(kiir);
-}
+} 
