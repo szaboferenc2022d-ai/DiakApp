@@ -6,5 +6,6 @@ namespace DiakApp
 {
     internal class Diak
     {
+
     }
 }
