@@ -22,6 +22,10 @@ namespace DiakApp
                 {
                     pontszam = 100;
                 }
+                else
+                {
+                    pontszam = value;
+                }
             }
         }
 

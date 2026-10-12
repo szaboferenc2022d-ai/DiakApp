@@ -25,3 +25,11 @@ foreach (string sor in File.ReadAllLines("eredmenyek.csv").Skip(1))
     }
     diakok.Add(new Diak(nev, osztaly, pontszam));
 }
+
+Console.WriteLine($"Sikeresen beolvasot diákok száma: {diakok.Count}");
+Console.WriteLine($"Hibás soros számok: {hibasSorokSzama}");
+
+foreach(Diak kiir in diakok)
+{
+    Console.WriteLine(kiir);
+}
